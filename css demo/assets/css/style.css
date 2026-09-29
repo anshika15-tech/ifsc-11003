@@ -26,7 +26,7 @@ html {
 }
 
 body{
-  font-family: "MonteCarlo", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
  header.primary{
@@ -51,11 +51,20 @@ text-decoration:none;
  header.primary p.subtitle{
   font size:1.5rem;
   font weight:bold;
-  /*top |l/r|Bottom*/
-  margin:10px 0 20px
-  letter-spacing: 10px;
+  /* top | l/r | Bottom */
+  margin: 10px 0 20px;
+  letter-spacing: -1px;
  }
 
+nav.primary ul {
+  background: rgb(101, 60, 232);
+  padding: 0;
+}
+nav.primary ul li {
+  background: rgb(154, 142, 232);
+  list-style-type: none;
+}
+nav.primary ul li a {
+}
 
- nav.primary ul{}
  
