@@ -24,3 +24,38 @@ html {
   z-index: 9999;
   border-radius: 6px;
 }
+
+body{
+  font-family: "MonteCarlo", cursive;
+}
+
+ header.primary{
+  background-color: #d89cda;
+  color:floralwhite;
+  text-align:center;
+  text-shadow: 1px 0px; #000000;
+  padding:40px;
+
+}
+
+header.primary a{
+color:#0c0c0c;
+text-decoration:none;
+}
+
+ header.primary h1{
+  font-size: 2.6rem;
+  margin:0;
+ }
+
+ header.primary p.subtitle{
+  font size:1.5rem;
+  font weight:bold;
+  /*top |l/r|Bottom*/
+  margin:10px 0 20px
+  letter-spacing: 10px;
+ }
+
+
+ nav.primary ul{}
+ 
