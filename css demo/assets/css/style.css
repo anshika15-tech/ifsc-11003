@@ -41,8 +41,36 @@ img{
 .container{
   width:80vw;
  max-width:960px;
+ margin:40px auto;
 }
 
+.img-left{
+  float:left;
+  border:1px solid #000000;
+  padding:5px;
+  margin:10px 20px 10px 0;
+}
+
+
+.img-right{
+  float:right;
+  border:1px solid #ffffff;
+  padding: 5px;
+  margin: 10px 0 10px 20px;
+}
+
+
+.img center{
+  display:block;
+  margin:20px auto;
+  border:1px solid #172635;
+  padding: 5px;
+}
+
+
+/* ---------------Global styles----------------- */
+
+l
 body{
   font-family: "Montserrat", sans-serif;
 }
@@ -53,6 +81,15 @@ body{
   text-align:center;
   text-shadow: 1px 0px; #000000;
   padding:40px;
+   /* Longform */
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  /* T/R/B/L */
+  padding: 40px 40px 20px 40px;
+  /* T/B | L/R */
+  padding: 20px 40px;
 
 }
 
@@ -83,9 +120,9 @@ nav.primary ul {
 }
 nav.primary ul li {
   list-style-type: none;
-  margin-bottom:10px;
   flex:1;
 }
+
 nav.primary ul li a {
   background-color:rgb(239, 168, 209);
   padding: 5px 7.5;
@@ -115,6 +152,12 @@ nav.primary ul li a:hover{
   justify-content:space-between;
   flex-wrap:wrap;
   gap:20px;
+  padding-bottom: 40px;
+  margin-bottom:40px;
+  border-bottom: 4px double #ccc;
+  margin-top:40px;
+  border-top:4px double #ccc;
+
 }
 
 #blog figure{
@@ -141,12 +184,63 @@ flex: 0 0 100%;
   color:#000000;
 }
 
-#blog{
-  flex-direction:column;
+#practice h2{
+  color:#000000;
+  border-bottom:1px dotted #cccccc;
+  
+}
+
+
+#pratice h3{
+  border-left:7.5px solid #3b638b;
+  padding:5px 0 5px 10px;
+}
+
+#pratice a:link, #practice a:visited {
+  color:antiquewhite;
+
+}
+
+
+#pratice {
+  line-height:1.6;
 }
 
 
 
+aside[aria-label="Sidebar"]{
+ background-color:#d89cda; 
+color:#ffffff;
+padding:20px 0;
+}
+
+
+
+aside.div.container{
+display:flex;
+flex-direction:row;
+justify-content:center;
+gap:40px;
+}
+
+aside div.container a:last-child{
+  display:block;
+  margin-top:10px;
+  text-align:right;
+}
+
+
+aside.widget footer{
+  display:none;
+}
+
+footer.primary{
+  background-color:#d874db;
+  padding:1px;
+  color:#ffffff;
+  text-align:center;
+  text-shadow:1px 1px #000000;
+}
 
 
 
@@ -158,9 +252,14 @@ nav.primary ul {
  flex-direction:column;
   justify-content:center;
   gap:30px;
+  
+}
+.container{
+  width:90vw;
 }
 
-
-
+#blog{
+  flex-direction:column;
+}
 
 }
