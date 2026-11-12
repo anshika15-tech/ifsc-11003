@@ -1,0 +1,173 @@
+body {
+  font-family:  "Chilanka", cursive;
+  margin:20;
+  background: #fdf6f8;
+  color: #333;
+}
+
+header {
+  background: #7a1f3d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+footer {
+  background: #7a1f3d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.book {
+  background: white;
+  border: 1px solid #e5c9d3;
+  border-left: 6px solid #7a1f3d;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.book h3 {
+  margin: 0 0 4px;
+  color: #7a1f3d;
+}
+
+.couple {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.tropes {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.book img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+}
+.book {
+  margin-bottom: 40px;
+}
+.book {
+  padding: 24px;
+}
+main {
+  margin-top: 70px;
+}
+header {
+  margin-bottom: 40px;
+}
+.book {
+  margin-top: 40px;
+}
+.book:first-of-type {
+  background: linear-gradient(135deg, #1A94D7, #ffffff);
+  border: 1px solid #0C4361;
+  border-left: 6px solid #0C4361;
+  color: #0C4361;
+}
+
+.book:first-of-type h3,
+.book:first-of-type .couple {
+  color: #0C4361;
+}
+
+.book:first-of-type .tropes {
+  color: #115F8A;
+}
+.book:nth-of-type(2) {
+  background: linear-gradient(135deg, #FFDF00, #FCF4B3);
+  border: 1px solid #B89F00;
+  border-left: 6px solid #B89F00;
+  color: #4a3f00;
+}
+
+.book:nth-of-type(2) h3,
+.book:nth-of-type(2) .couple {
+  color: #4a3f00;
+}
+
+.book:nth-of-type(2) .tropes {
+  color: #6b5d00;
+}
+
+.book:nth-of-type(3) {
+  background: linear-gradient(135deg, #D63611, #B32C0E, #8A220B, #611808);
+  border: 1px solid #611808;
+  border-left: 6px solid #611808;
+  color: white;
+}
+
+.book:nth-of-type(3) h3,
+.book:nth-of-type(3) .couple {
+  color: white;
+}
+
+.book:nth-of-type(3) .tropes {
+  color: #f6d3cb;
+}
+
+.book:nth-of-type(4) {
+  background: linear-gradient(135deg, #1CD969, #1DA855, #056E30, #034F22);
+  border: 1px solid #034F22;
+  border-left: 6px solid #034F22;
+  color: white;
+}
+
+.book:nth-of-type(4) h3,
+.book:nth-of-type(4) .couple {
+  color: white;
+}
+
+.book:nth-of-type(4) .tropes {
+  color: #d3f5e1;
+}
+body {
+  background: #fdf6f8;
+  color: #2b2b2b;
+}
+
+body {
+  background: #fafafa;
+  color: #2b2b2b;
+}
+
+header,
+footer {
+  background: #0C4361;
+  color: white;
+}
+
+nav a:hover {
+  color: #FFDF00; 
+}
+
+h2 {
+  color: #611808;
+}
+
+
+
+header {
+  border-bottom: 6px solid;
+  border-image: linear-gradient(90deg, #1A94D7, #FFDF00, #D63611, #1CD969) 1;
+}
